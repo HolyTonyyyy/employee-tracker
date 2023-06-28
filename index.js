@@ -14,6 +14,7 @@ db.connect((err) => {
     if(err)throw err
 })
 
+// Prompt Choices
 function start () {
     inquirer.prompt([
         {
